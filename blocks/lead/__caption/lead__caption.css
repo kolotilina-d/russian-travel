@@ -1,9 +1,21 @@
 .lead__caption {
   font-size: 10px;
-  line-height: 14px;
+  line-height: 116%;
   letter-spacing: 0.15em;
   max-width: 984px;
   margin: 0 auto;
   text-align: left;
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead__caption {
+    margin-left: 16px;
+  }
 }
