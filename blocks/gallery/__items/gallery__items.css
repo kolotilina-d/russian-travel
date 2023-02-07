@@ -1,0 +1,6 @@
+.gallery__items {
+  margin-top: 92px;
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+}

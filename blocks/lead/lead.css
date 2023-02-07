@@ -1,0 +1,5 @@
+.lead {
+  margin: 0 auto;
+  text-align: center;
+  max-width: calc((1280-984)/100);
+}
