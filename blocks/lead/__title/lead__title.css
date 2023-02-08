@@ -5,6 +5,7 @@
   max-width: 720px;
   padding-top: 48px;
   margin: 0 auto;
+<<<<<<< HEAD
 }
 
 @media screen and (min-width: 1280px) {
@@ -34,4 +35,6 @@
     font-size: 40px;
     line-height: 91%;
   }
+=======
+>>>>>>> 66b05976e6c7050661e3e55af5fc76c54100adfd
 }

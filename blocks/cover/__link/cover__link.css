@@ -1,7 +1,13 @@
 .cover__link {
+<<<<<<< HEAD
   position: relative;
   width: 100%;
   min-height: 740px;
+=======
+  padding-bottom: 22%;
+  position: relative;
+  width: 100%;
+>>>>>>> 66b05976e6c7050661e3e55af5fc76c54100adfd
   margin: 0 auto;
   text-decoration: none;
   display: flex;
@@ -9,14 +15,23 @@
   justify-content: center;
   align-items: center;
   background-image: url(../../../images/train-sets.jpg);
+<<<<<<< HEAD
   background-repeat: no-repeat;
   object-fit: cover;
+=======
+  background-position: top;
+  background-repeat: no-repeat;
+>>>>>>> 66b05976e6c7050661e3e55af5fc76c54100adfd
   text-align: center;
 }
 
 .cover__link::before {
+<<<<<<< HEAD
   content: ' ';
   background: #2A2C2F;
+=======
+  background-color: #2a2c2f;
+>>>>>>> 66b05976e6c7050661e3e55af5fc76c54100adfd
   position: absolute;
   opacity: 0.3;
   top: 0;
@@ -26,5 +41,9 @@
 }
 
 .cover__link:hover::before {
+<<<<<<< HEAD
   opacity: 0.9;
+=======
+  opacity: 0.7;
+>>>>>>> 66b05976e6c7050661e3e55af5fc76c54100adfd
 }
