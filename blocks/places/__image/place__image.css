@@ -1,4 +1,6 @@
 .place__image {
+  width: 100%;
+  object-fit: contain;
   order: 3;
   grid-row: 2/span 3;
 }
