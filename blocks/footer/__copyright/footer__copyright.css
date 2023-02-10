@@ -4,3 +4,10 @@
   line-height: 16px;
   text-align: right;
 }
+
+@media screen and (max-width: 500px) {
+  .footer__copyright {
+    text-align: left;
+    line-height: 1;
+  }
+}

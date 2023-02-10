@@ -1,0 +1,6 @@
+@media screen and (max-width: 500px) {
+  .extra-small-padding {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+ }

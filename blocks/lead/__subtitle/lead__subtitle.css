@@ -1,16 +1,15 @@
 .lead__subtitle {
   margin: 0 auto;
   font-size: 30px;
-  line-height: 36px;
+  line-height: 1.2;
   padding-top: 32px;
   max-width: 640px;
 }
 
 @media screen and (max-width: 1024px) {
   .lead__subtitle {
-    font-size: calc(16px + (30 - 16) * ((100vw - 320px) / (1024 - 320)));
-    line-height: calc(20px + (36 - 20) * ((100vw - 320px) / (1024 - 320)));
-    max-width: calc(288px + (640 - 288) * ((100vw - 320px) / (1024 - 320)));
+    max-width: 640px;
+    padding-top: 33px;
   }
 }
 
@@ -19,7 +18,7 @@
     max-width: 288px;
     font-size: 16px;
     line-height: 20px;
-    padding: 16px 16px 0;
+    padding: 16px 0 0;
 
 	}
 }

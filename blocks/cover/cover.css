@@ -4,3 +4,31 @@
   padding: 0 0 92px;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    max-width: 1024;
+    padding: 0 0 94px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    max-width: 768px;
+    padding: 0 0 88px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cover {
+    max-width: 500px;
+    padding: 0 0 64px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    max-width: 320px;
+    padding: 0 0 64px;
+  }
+}

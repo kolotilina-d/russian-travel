@@ -5,4 +5,40 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer {
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    max-width: 928px;
+  }
+}
+
+
+@media screen and (max-width: 810px) {
+  .footer {
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .footer {
+    width: calc(100% - 16px);
+  }
+}
+
+
+@media screen and (max-width: 655px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: flex-start;
+  }
 }
