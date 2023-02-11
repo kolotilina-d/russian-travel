@@ -5,6 +5,12 @@
   text-align: right;
 }
 
+@media screen and (max-width: 750px) {
+  .footer__copyright {
+    padding: 0 10px 0;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .footer__copyright {
     text-align: left;

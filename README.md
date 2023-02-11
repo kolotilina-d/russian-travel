@@ -26,3 +26,4 @@
 > сглаживание переходов между брейкпоинтами
 > создание с помощью структуры grid основных элементов: header footer
 
+Сcылка на проект https://kolotilina-d.github.io/russian-travel/

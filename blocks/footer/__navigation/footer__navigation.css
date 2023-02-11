@@ -3,6 +3,13 @@
   column-gap: 19px;
 }
 
+@media screen and (max-width: 750px) {
+  .footer__navigation {
+    padding-left: 10px;
+  }
+}
+
+
 @media screen and (max-width: 500px) {
   .footer__navigation {
     display: flex;
