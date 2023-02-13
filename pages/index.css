@@ -1,8 +1,10 @@
+@import url(../vendor/normalize.css);
 @import url(../vendor/fonts/Inter-3.19/Inter_Web/inter.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang/header__lang.css);
+@import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-link/_selected/header__lang-link_selected.css);
 @import url(../blocks/lead/lead.css);
@@ -15,7 +17,7 @@
 @import url(../blocks/intro/__paragraph/intro__paragraph.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__item/intro__item.css);
-@import url(../blocks/intro/_text-accent/intro__text-accent.css);
+@import url(../blocks/intro/__text-accent/intro__text-accent.css);
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__items/gallery__items.css);
 @import url(../blocks/gallery/__item/gallery__item.css);
@@ -37,5 +39,4 @@
 @import url(../blocks/footer/__navigation/footer__navigation.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-@import url(../blocks/extra-small-padding/extra-small-padding.css);
 @import url(../blocks/right-padding/right-padding.css);

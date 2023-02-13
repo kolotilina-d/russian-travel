@@ -20,26 +20,19 @@
   }
 }
 
-
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 768px) {
   .footer {
-    width: 720px;
+    max-width: 720px;
   }
 }
-
-@media screen and (max-width: 700px) {
-  .footer {
-    width: calc(100% - 16px);
-  }
-}
-
 
 @media screen and (max-width: 655px) {
   .footer {
+    max-width: calc(186px + (400 - 186) * ((100vw - 320px) / (654 - 320)));
     margin: 0;
-    display: flex;
     flex-direction: column;
     gap: 48px;
     align-items: flex-start;
+    padding: 0 0 24px 16px;
   }
 }

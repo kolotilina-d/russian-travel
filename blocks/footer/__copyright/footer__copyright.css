@@ -15,5 +15,6 @@
   .footer__copyright {
     text-align: left;
     line-height: 1;
+    padding: 0;
   }
 }

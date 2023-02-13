@@ -5,13 +5,13 @@
 }
 
 @media screen and (max-width: 1024px) {
-	.lead__main-illustrator {
+  .lead__main-illustrator {
     margin: 56px auto 8px;
-	}
+  }
 }
 
 @media screen and (max-width: 320px) {
-	.lead__main-illustrator {
+  .lead__main-illustrator {
     margin: 40px auto 8px;
-	}
+  }
 }

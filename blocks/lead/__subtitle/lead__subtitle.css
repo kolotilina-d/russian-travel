@@ -15,18 +15,18 @@
 
 @media screen and (max-width: 700px) {
   .lead__subtitle {
-    font-size: 24px;
+    font-size: calc(16px + (30 - 16) * (100vw - 320px) / (700 - 320));
     line-height: 1.1;
     max-width: 450px;
   }
 }
 
 @media screen and (max-width: 320px) {
-	.lead__subtitle {
+  .lead__subtitle {
     max-width: 288px;
     font-size: 16px;
-    line-height: 20px;
-    padding: 16px 0 0;
+    line-height: 1.25;
+    padding: 16px 16px 0;
 
-	}
+  }
 }

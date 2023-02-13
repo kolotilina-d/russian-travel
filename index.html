@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Russian-travel</title>
 </head>
@@ -14,22 +13,24 @@
   <div class="root">
     <header class="header">
       <img class="header__logo" src="./images/logo.svg" alt="Абрис карты и название страны Россия">
-      <div class="header__lang">
-        <a target="_blank" href="#" class="header__lang-link header__lang-link_selected">Ru</a>
-        <a target="_blank" href="#" class="header__lang-link">En</a>
-      </div>
+      <ul class="header__lang">
+        <li class="header__links"><a target="_self" href="#" class="header__lang-link header__lang-link_selected">Ru</a>
+        </li>
+        <li class="header__links"><a target="_self" href="#" class="header__lang-link">En</a></li>
+      </ul>
     </header>
     <main class="content">
-      <div class="lead">
-        <h1 class="lead__title extra-small-padding">
+      <section class="lead">
+        <h1 class="lead__title">
           Путешествия по России
         </h1>
-        <p class="lead__subtitle extra-small-padding">Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а&nbsp;здесь.
-        </p> <img src="./images/woman-on-the-train.jpg" alt="спина девушки, лежащей на полке в поезде"
+        <p class="lead__subtitle">Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а&nbsp;здесь.
+        </p>
+        <img src="./images/woman-on-the-train.jpg" alt="девушка, лежащая на полке в поезде"
           class="lead__main-illustrator">
         <p class="lead__caption">ваша полка — верхняя</p>
-      </div>
-      <div class="intro extra-small-padding">
+      </section>
+      <section class="intro">
         <h2 class="intro__title">Чего мы&nbsp;там не&nbsp;видели?</h2>
         <p class="intro__paragraph">По&nbsp;опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать,
           но&nbsp;только&nbsp;36% планируют
@@ -45,15 +46,13 @@
           отпуска.</p>
         <ul class="intro__list">
           <li class="intro__item">Часовых поясов <span class="intro__text-accent">11</span></li>
-          <li class="intro__item">Объектов природного наследия ЮНЕСКО <span
-              class="intro__text-accent">12</span></li>
-          <li class="intro__item">Объектов культурного наследия ЮНЕСКО <span
-              class="intro__text-accent">16</span></li>
+          <li class="intro__item">Объектов природного наследия ЮНЕСКО <span class="intro__text-accent">12</span></li>
+          <li class="intro__item">Объектов культурного наследия ЮНЕСКО <span class="intro__text-accent">16</span></li>
           <li class="intro__item">Природных заповедников <span class="intro__text-accent">105</span></li>
           <li class="intro__item">Аэропортов <span class="intro__text-accent">241</span></li>
         </ul>
-      </div>
-      <div class="gallery extra-small-padding">
+      </section>
+      <section class="gallery">
         <ul class="gallery__items">
           <li class="gallery__item"><img src="./images/window.jpg" alt="окно в поезде" class="gallery__img"></li>
           <li class="gallery__item"><img src="./images/mountain.jpg" alt="горы" class="gallery__img"></li>
@@ -72,16 +71,16 @@
           <li class="gallery__item"><img src="./images/bay.jpg" alt="бухта" class="gallery__img"></li>
           <li class="gallery__item"><img src="./images/clouds.jpg" alt="облака" class="gallery__img"></li>
         </ul>
-      </div>
-      <div class="places">
+      </section>
+      <section class="places">
         <article class="place">
-          <h2 class="place__title extra-small-padding right-padding">Куршская коса</h2> <img src="./images/park-kosa.jpg"
+          <h2 class="place__title right-padding">Куршская коса</h2> <img src="./images/park-kosa.jpg"
             alt="остатки корней затопленных деревьев в заливе" class="place__image">
-          <div class="place__website extra-small-padding">
+          <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a target="_blank" href="http://park-kosa.ru" class="place__link">park-kosa.ru</a>
           </div>
-          <div class="place__text extra-small-padding">
+          <div class="place__text">
             <p class="place__paragraph">Здесь, посреди лесов и&nbsp;песчаных дюн, вы&nbsp;сможете увидеть два водных
               горизонта &mdash;
               спокойного Куршского залива с&nbsp;одной стороны и&nbsp;подёрнутого рябью волн Балтийского моря
@@ -97,14 +96,14 @@
           </div>
         </article>
         <article class="place">
-          <h2 class="place__title extra-small-padding">Кольский</h2>
+          <h2 class="place__title">Кольский</h2>
           <img src="./images/Kola_Peninsula.jpg" alt="заснеженное побережье моря среди скал" class="place__image">
-          <div class="place__website extra-small-padding">
+          <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a target="_blank" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
               class="place__link">National Geographic</a>
           </div>
-          <div class="place__text extra-small-padding">
+          <div class="place__text">
             <p class="place__paragraph">Почти весь полуостров находится за&nbsp;Полярным кругом. Саамская тундра,
               от&nbsp;которой на
               юг &mdash;
@@ -120,15 +119,15 @@
           </div>
         </article>
         <article class="place">
-          <h2 class="place__title extra-small-padding">Алтай</h2>
+          <h2 class="place__title">Алтай</h2>
           <img src="./images/laptop-and-trees.jpg" alt="ноутбук лежит на балке, на заднем фоне хвойный лес"
             class="place__image">
-          <div class="place__website extra-small-padding">
+          <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a target="_blank" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
               class="place__link">Facebook</a>
           </div>
-          <div class="place__text extra-small-padding">
+          <div class="place__text">
             <p class="place__paragraph">Алтай&nbsp;&mdash; одно из&nbsp;красивейших мест в&nbsp;России.
               В&nbsp;первую очередь из-за гор: если ехать вдоль хребта, вы&nbsp;увидите склоны, усыпанные соснами,
               горные
@@ -144,13 +143,13 @@
           </div>
         </article>
         <article class="place">
-          <h2 class="place__title extra-small-padding">Зимний Байкал</h2>
+          <h2 class="place__title">Зимний Байкал</h2>
           <img src="./images/ice.jpg" alt="трещины на толстом льду" class="place__image">
-          <div class="place__website extra-small-padding">
+          <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a target="_blank" href="https://vk.com/baikalmile" class="place__link">https://vk.com/baikalmile</a>
           </div>
-          <div class="place__text extra-small-padding">
+          <div class="place__text">
             <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро
               в&nbsp;мире. Многие также знают, что это самый большой источник пресной воды и&nbsp;одно
               из&nbsp;красивейших
@@ -164,13 +163,13 @@
           </div>
         </article>
         <article class="place">
-          <h2 class="place__title extra-small-padding">Карелия</h2>
+          <h2 class="place__title">Карелия</h2>
           <img src="./images/river.jpg" alt="река, которую видно сквозь ветки деревьев" class="place__image">
-          <div class="place__website extra-small-padding">
+          <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a target="_blank" href="http://vodlozero.ru" class="place__link">http://vodlozero.ru/</a>
           </div>
-          <div class="place__text extra-small-padding">
+          <div class="place__text">
             <p class="place__paragraph">Сибирь заканчивается не&nbsp;на&nbsp;Урале, а&nbsp;в&nbsp;Карелии: образующая
               тайгу сибирская
               лиственница не&nbsp;растёт западнее Водлозера. Зато здесь она вымахивает
@@ -183,26 +182,26 @@
               в&nbsp;паре метров от&nbsp;земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
           </div>
         </article>
-      </div>
-      <div class="cover">
+      </section>
+      <section class="cover">
         <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link" target="_blank">
           <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
           <p class="cover__subtitle">По&nbsp;мотивам учебной темы о&nbsp;Транссибе&nbsp;&mdash; путешествие&nbsp;от
             столицы до&nbsp;Байкала на
             электричках.</p>
         </a>
-      </div>
-      <footer class="footer extra-small-padding">
-        <nav class="footer__navigation">
-          <a target="_blank" href="https://yandex.ru/maps" class="footer__link">Карты</a>
-          <a target="_blank" href="https://yandex.ru/pogoda" class="footer__link">Погода</a>
-          <a target="_blank" href="https://rasp.yandex.ru" class="footer__link">Расписание</a>
-          <a target="_blank" href="https://calendar.yandex.ru" class="footer__link">Календарь</a>
-          <a target="_blank" href="https://travel.yandex.ru" class="footer__link">Путешествия</a>
-        </nav>
-        <p class="footer__copyright">&copy; 2023. Дарья Колотилина</p>
-      </footer>
+      </section>
     </main>
+    <footer class="footer">
+      <nav class="footer__navigation">
+        <a target="_blank" href="https://yandex.ru/maps" class="footer__link">Карты</a>
+        <a target="_blank" href="https://yandex.ru/pogoda" class="footer__link">Погода</a>
+        <a target="_blank" href="https://rasp.yandex.ru" class="footer__link">Расписание</a>
+        <a target="_blank" href="https://calendar.yandex.ru" class="footer__link">Календарь</a>
+        <a target="_blank" href="https://travel.yandex.ru" class="footer__link">Путешествия</a>
+      </nav>
+      <p class="footer__copyright">&copy; 2023. Дарья Колотилина</p>
+    </footer>
   </div>
 </body>
 
