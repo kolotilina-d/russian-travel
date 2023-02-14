@@ -26,9 +26,9 @@
   }
 }
 
-@media screen and (max-width: 655px) {
+@media screen and (max-width: 660px) {
   .footer {
-    max-width: calc(186px + (400 - 186) * ((100vw - 320px) / (654 - 320)));
+    max-width: 260px;
     margin: 0;
     flex-direction: column;
     gap: 48px;
